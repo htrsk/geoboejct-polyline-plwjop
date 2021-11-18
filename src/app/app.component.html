@@ -1,0 +1,13 @@
+<div class="container">
+  <ya-map [center]="[55.72, 37.44]">
+    <ya-geoobject
+      [feature]="geoObject.feature"
+      [options]="geoObject.options"
+    ></ya-geoobject>
+
+    <ya-geoobject
+      [feature]="polyline.feature"
+      [options]="polyline.options"
+    ></ya-geoobject>
+  </ya-map>
+</div>
